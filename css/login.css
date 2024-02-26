@@ -1,0 +1,49 @@
+/* Variaveis de cores */
+body{
+    background-color: var(--primary-color);
+}
+
+
+:root{
+    --bg-nav: #2e2e2e;
+    --primary-color: #b57aec;
+    --secondary-color: #912cf0;
+    }
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.btn-primary {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+.bg-primary {
+    background-color: var(--primary-color)!important;
+}
+.btn-dark {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.btn-dark:hover{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
